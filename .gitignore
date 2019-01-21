@@ -22,6 +22,17 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
+*.vs
+*.DotSettings.user
+*.sln.DotSettings
+
+# CustomPlugins
+Assets/Plugins/Editor/VSCode.cs
+Assets/.reuniter_data
+
+# JetBrains Rider
+**/.idea/*
+**/Editor/JetBrains*
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -31,3 +42,6 @@ sysinfo.txt
 
 # Builds
 *.apk
+
+# OS generated files #
+.DS_Store
